@@ -1,0 +1,241 @@
+* {
+    overflow: hidden;
+    font-family: Montserrat;
+    /* text-shadow: 2px 2px 5px black; */
+    user-select: none;
+}
+
+.container {
+    display: none;
+    margin-top: 13%;
+}
+
+.notify-container {
+    display: none;
+    width: 20%;
+    margin: 0 auto;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+}
+
+.notifytitle {
+    font-size: 24px;
+    background-color: #deac80;
+    color: white;
+    width: 50%;
+    margin: 0 auto;
+    font-weight: 800;
+}
+
+.notifytext {
+    padding: 3%;
+    font-size: 18px;
+}
+
+.notifyimage {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.battlepass-item {
+    position: relative;
+    width: 50%;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: 105%;
+    transition: .5s ease;
+    backface-visibility: hidden;
+
+}
+
+.middletext {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.battlepass-item:hover .image {
+    opacity: 0.3;
+}
+
+.battlepass-item:hover .middletext {
+    opacity: 1;
+}
+
+.text {
+    background-color: #161616;
+    color: white;
+    font-size: 12px;
+    padding: 12px 24px;
+}
+
+table {
+    background-color: #172859;
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+    margin-left: 5% !important;
+}
+
+th,
+td {
+    width: 5% !important;
+    padding: 10px;
+    background-color: #69859b;
+    box-shadow: inset 0 0 3px #fff;
+    text-align: center;
+    color: white;
+}
+
+.pass {
+    font-weight: 700;
+}
+
+td {
+    height: 10vh;
+}
+
+td img {
+    width: 80%;
+    object-fit: cover;
+}
+
+.premium-side td {
+    border: 1px solid rgb(183, 0, 255);
+    color: white;
+    width: 100%;
+    width: 5% !important;
+    padding: 10px;
+    background-color: #a400c5e3;
+    box-shadow: inset 0 0 5px black;
+}
+
+.prev-tier {
+    background-color: #69859b;
+    border: none;
+    color: white;
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    box-shadow: inset 0 0 5px white;
+    position: relative;
+    left: 5%;
+}
+
+.not-active {
+    background-color: #69859b56 !important;
+}
+
+.next-tier {
+    background-color: #69859b;
+    border: none;
+    color: white;
+    padding: 15px;
+    padding-left: 45px;
+    padding-right: 45px;
+    box-shadow: inset 0 0 5px white;
+    position: relative;
+    left: 79.4%;
+}
+
+.level {
+    font-size: 4.5vw;
+    color:white;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 2%;
+}
+
+.xp-togo {
+    font-size: 1.2vw;
+    color:white;
+    font-weight: 700;
+    text-align: center;
+    width: 100%;
+}
+
+.xp {
+    font-size: 1.5vw;
+    margin-top: 2%;
+    width: 70%;
+    background-color: #69859b;
+    color:white;
+    font-weight: 700;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.xp-bar {
+    width: 75%;
+    margin: 8% auto;
+    background-color: #69859b;
+    height: 5px;
+}
+
+.battlepass-type-logo {
+    margin: 7% auto;
+    width: 50%;
+
+}
+
+.xp-bar-inside {
+    width: 0%;
+    transition: width 3s;
+    background-color: #00ff80;
+    height: 5px;
+}
+
+.profile {
+    position: absolute;
+    width: 10%;
+    right: 5.3%;
+    top: 26.5%;
+    height: 31.05vh;
+    background-color: #172859;
+}
+/* 
+.timer {
+    position: absolute;
+    font-size: 45px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: -5%;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    top: 31.5%;
+    width: 73%;
+} */
+
+.header {
+    height: 30px;
+    border-radius: 10px 10px 0 0;
+    background-color: #1a2f6d;
+    color: white;
+    margin: 0 auto;
+    width: 90%;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.header-text {
+    font-weight: 600;
+    padding-top: 0.2%;
+    padding-left: 0.7%;
+}
